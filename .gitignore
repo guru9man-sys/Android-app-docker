@@ -1,0 +1,81 @@
+# Gradle files
+.gradle
+build/
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio generated files and folders
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Android Keystore files
+*.jks
+*.keystore
+
+# Kotlin
+kotlin-build/
+
+# Compiled class file
+*.class
+
+# Log Files
+*.log
+
+# Android Studio History (older plugin versions)
+.history
+
+# Gradle cache
+.gradle/
+
+# Android Studio cache
+.androidStudioFirstRun
+
+# Output from running tests
+/testResults/
+
+# Build variants folder
+build/
+
+# Covers for Kotlin
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# API Keys (security)
+.env
+*.secret
+apikeys.json
+
+# Temp files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated files
+generated/
+.generated/
+
+# Test coverage
+coverage/
+*.coverage
+
+# Dependency files (optional - depending on setup)
+.m2/

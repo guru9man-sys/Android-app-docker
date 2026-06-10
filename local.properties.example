@@ -1,0 +1,24 @@
+# This file is ignored by Git and contains local developer configuration
+# Copy this file to local.properties and fill in your own values
+
+# SDK Configuration
+sdk.dir=/path/to/Android/Sdk
+
+# Build Configuration
+android.useAndroidX=true
+android.enableJetifier=true
+
+# Kotlin Configuration  
+kotlin.code.style=official
+kotlin.incremental=true
+
+# Optional: API Keys (use with caution - do not commit!)
+# Uncomment and fill in your values below:
+# GEMINI_API_KEY=your-actual-api-key-here
+# DOCKER_HOST=http://localhost:2375
+
+# Optional: Keystore Configuration for Release Builds
+# KEYSTORE_PATH=/path/to/keystore.jks
+# KEYSTORE_PASSWORD=your-keystore-password
+# KEY_ALIAS=dockerai
+# KEY_PASSWORD=your-key-password
